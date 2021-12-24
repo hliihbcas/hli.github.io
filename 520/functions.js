@@ -2,8 +2,7 @@ var $window=$(window),gardenCtx,gardenCanvas,$garden,garden;var clientWidth=$(wi
 function timeElapse(c){
     
     var e=Date();
-    console.log(e)
-    console.log(c)
+    
     var f=(Date.parse(e)-Date.parse(c))/1000;
     var g=Math.floor(f/(3600*24));
     f=f%(3600*24);
